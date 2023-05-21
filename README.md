@@ -4,14 +4,14 @@ Calculate the volume of a Stentor coeruleus macronucleus from a 2D brightfield i
 Get FIJI here: https://imagej.net/software/fiji/downloads <br>
 Get Affinity Designer here: https://affinity.serif.com/en-us/designer/
 
-Create the following folders: <br>
-•	Original Images <br>
-•	Outlines <br>
-•	Binary <br>
-•	Horizontal <br>
-•	Python <br>
+## Create the following folders:
+* Original Images
+*	Outlines
+* Binary
+* Horizontal
+* Python
 
-Original Image to Outline
+## Original Image to Outline
 1.	Load original image into Affinity Designer
 2.	Set to pixel mode
 3.	Create a new pixel layer
@@ -23,14 +23,14 @@ Original Image to Outline
 9.	Export the outline as a .png file with transparent background
 10.	Save the outline file in the Outlines folder
 
-Outline to Binary
+## Outline to Binary
 1.	In FIJI, load the outline_to_binary.ijm macro
 2.	Set the save path to save the resulting image into your Binary Folder
 3.	Use the paint bucket to fill the background of the nucleus to black
 4.	Check for gaps in the outline, the goal is for all the nodes to be white on black background.
 5.	Run the macro
 
-Binary to Horizontal
+## Binary to Horizontal
 1.	Load the outline image into Affinity Designer
 2.	Set to Pixel Mode
 3.	Select the polygonal lasso tool
@@ -40,14 +40,14 @@ Binary to Horizontal
 7.	Repeat for all the nodes in the image
 8.	Export the image as a .png file and save it into your Horizontal folder
 
-Horizontal to Python
+## Horizontal to Python
 1.	In FIJI, load the horizontal_to_python.ijm macro
 2.	Alter the save path to your Python Folder
 3.	Load your Horizontal Image into FIJI
 4.	Use the rectangle tool to encompass the entire macronucleus – this will be used by the macro to crop excess empty space from the image 
 5.	Run the macro
 
-Python Volume Analysis
+## Python Volume Analysis
 1.	Open the jupyter notebook 2D_to_3D_macs_volume_calculation.ipynb
 2.	Set the filepath to retrieve your image from your Python Folder
 3.	Set the pixel to micrometer conversion factor
