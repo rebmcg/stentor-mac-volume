@@ -4,12 +4,12 @@ Calculate the volume of a Stentor coeruleus macronucleus from a 2D brightfield i
 Get FIJI here: https://imagej.net/software/fiji/downloads <br>
 Get Affinity Designer here: https://affinity.serif.com/en-us/designer/
 
-Create the following folders:
-•	Original Images
-•	Outlines
-•	Binary
-•	Horizontal
-•	Python
+Create the following folders: <br>
+•	Original Images <br>
+•	Outlines <br>
+•	Binary <br>
+•	Horizontal <br>
+•	Python <br>
 
 Original Image to Outline
 1.	Load original image into Affinity Designer
