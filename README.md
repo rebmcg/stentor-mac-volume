@@ -1,7 +1,7 @@
 # stentor-mac-volume
 Calculate the volume of a Stentor coeruleus macronucleus from a 2D brightfield image
 
-Get FIJI here: https://imagej.net/software/fiji/downloads
+Get FIJI here: https://imagej.net/software/fiji/downloads <br>
 Get Affinity Designer here: https://affinity.serif.com/en-us/designer/
 
 Create the following folders:
