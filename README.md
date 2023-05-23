@@ -1,4 +1,7 @@
 # stentor-mac-volume
+
+[![DOI](https://zenodo.org/badge/643664143.svg)](https://zenodo.org/badge/latestdoi/643664143)
+
 Calculate the volume of a *Stentor coeruleus* macronucleus from a 2D brightfield image of a rotocompressed cell
 
 Get FIJI here: https://imagej.net/software/fiji/downloads <br>
